@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	background-color: #f1f1f1;
+	color: #0f141e;
+
+	font-size: 16px;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: palevioletred;
+}
+
+a:active {
+	color: palevioletred;
+}
+
+a:visited {
+	color: palevioletred;
+}
+.avatar {
+	width: 220px;
+	border-radius: 50%;
+	box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+
+.info p {
+	color: #86898f;
+	font-style: italic;
+	font-weight: bold;
+	margin: 0%;
+}
+
+.container {
+	max-width: 750px;
+	margin: auto;
+	padding-top: 30px;
+	align-content: center;
+	}
+
+.bg-yellow {
+	background: #fff9dc;
+}
+
+.bg-green {
+	background: #e5ffe7;
+}
+
+.bg-red {
+	background: #ffe5e5;
+}
+
+.card {
+	padding: 15px 20px;
+	margin-bottom: 20px;
+	border-radius: 30px;
+}
+
+.info {
+	margin-bottom: 20px;
+	display: flex;
+}
+
+@media (max-width: 700px) {
+	.info {
+		display: block;
+		text-align: center;
+	}
+}
+
+.info_text {
+	margin-left: 40px;
+}
+
+.info_text h4 {
+	margin-bottom: 10px;
+}
+
+.card h2 {
+	margin-bottom: 10px;
+}
+
+.list {
+	padding: 0px 20px;
+}
+
+.list li {
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+.table {
+	width: 100%;
+}
+
+.table td {
+	padding-bottom: 10px;
+}
+
+.table td:nth-child(2), td:nth-child(3) {
+	color: #000000;
+}
+
+.link-list {
+	list-style: none;
+	padding: 0;
+
+}
+
+.link-list li {
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #1d1d1c;
+}
+
+.contact h2 {
+	text-align: center;
+}
+
+.form_group label {
+	display: block;
+	font-size: 14px;
+	color: #86898f;
+}
+
+.form_group input,
+.form_group textarea {
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #ccc;
+	color: #000;
+	padding: 15px 0 10px;
+	outline: none;
+	font-family: inherit;
+}
+
+.row {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.row > .form_group {
+	width: 50%;
+	margin-right: 20px;
+}
+
+.btn {
+	background: #111;
+	padding: 15px 20px;
+	color: #fff;
+	border: none;
+	font-family: inherit;
+	cursor: pointer;
+
+}
+
+.btn:hover {
+	opacity: 0.9;
+}
